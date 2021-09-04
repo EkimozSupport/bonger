@@ -557,7 +557,7 @@ async def oynat(_, message: Message):
         )
         file_name = get_file_name(audio)
         title = file_name
-        thumb_name = "https://telegra.ph/file/03f1c9ec4513c3a52bc22.jpg"
+        thumb_name = "https://telegra.ph/file/52d0d3a25f760a4e7fe5e.jpg"
         thumbnail = thumb_name
         duration = round(audio.duration / 60)
         views = "Locally added"
@@ -1096,7 +1096,7 @@ async def jiosaavn(client: Client, message_: Message):
                     # print(e)
                     await lel.edit(
                         f"<b>🔴 Flood Wait Error 🔴 \nUser {user.first_name} userbot için yoğun talepler nedeniyle grubunuza katılamadı! Kullanıcının grupta yasaklanmadığından emin olun."
-                        "\n\nOr @Loungemusicasistan'i grubunuza manuel olarak ekleyin ve tekrar deneyin</b>",
+                        "\n\nOr @HatiralaraMusicAsistan'i'i grubunuza manuel olarak ekleyin ve tekrar deneyin</b>",
                     )
     try:
         await USER.get_chat(chid)
